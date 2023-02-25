@@ -12,7 +12,7 @@ function App(props) {
   const [message, setMessage] = useState('');
   const handlePlusClick = () => {
     if (value == 10) {
-      setMessage("Sorry,Counter closed for today!")
+      setMessage("Sorry this is modified,Counter closed for today!")
     } else {
       setValue(value + 1);
     }
